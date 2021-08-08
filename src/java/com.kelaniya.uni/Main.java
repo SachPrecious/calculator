@@ -6,7 +6,7 @@ import java.io.File;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
-        File file = new File("E:\\SoftwareCons\\2021\\calculator\\src\\java\\com.kelaniya.uni\\numbers.txt");
+        File file = new File("E:\\SoftwareCons\\calculator\\src\\java\\com.kelaniya.uni\\numbers.txt");
         Scanner scannerFile = new Scanner(file);
         int x = scannerFile.nextInt();
         int y= scannerFile.nextInt();
