@@ -17,6 +17,10 @@ public class OperationFactory {
        {
            operation = new MulOperation();
        }
+       else if (operator.equals("div"))
+       {
+           operation = new DivOperation();
+       }//violation OCP
 
        return operation;
    }

@@ -14,8 +14,8 @@ public class FileReader {
 
         //read the numbers from the text file
         List<String> numbersStrs = Files.readAllLines(
-                //Paths.get("E:\\SoftwareCons\\calculator\\src\\java\\com.kelaniya.uni\\numbers.txt")
-                Paths.get("E:\\SoftwareCons\\calculator\\numbers.txt")
+                Paths.get("E:\\SoftwareCons\\calculator\\src\\java\\com.kelaniya.uni\\numbers.txt")
+                //Paths.get("E:\\SoftwareCons\\calculator\\numbers.txt")
 
         );
 
