@@ -9,3 +9,7 @@ public Double execute(Double[] numbers){
 }
 
 }
+
+
+//what is the responsibility of the AddOperation class-add two numbers
+//figure out the test cases
