@@ -14,7 +14,7 @@ public class Main {
 
     //Main class is the coordinator now
     //Main class is only an entry point
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
 
         Inputs inputs =new CommandLineInputs(args);
@@ -23,6 +23,7 @@ public class Main {
         UI ui =new CmdLineUI();
         CalculatorApp app =new CalculatorApp(inputs,numberRepository,operationFactory,ui);
         app.execute();
+
 
 
     }
